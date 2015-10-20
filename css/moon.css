@@ -33,6 +33,10 @@ h1 {
 	font-size: 1rem;
 }
 
+h2 {
+	font-size: 3.2rem;
+}
+
 a {
 	text-decoration: none;
 	color: #3271ce;
@@ -42,4 +46,34 @@ a {
 ul {
 	list-style-type: none;
 	padding-left: 0;
+}
+
+@media only screen and (min-width: 20em) {
+
+li {
+	display: inline-block;
+}
+
+ul {
+	text-align: center;
+	}
+}
+
+@media only screen and (min-width: 42em) {
+
+	h1 {
+		text-align: left;
+}
+
+
+}
+
+@media only screen and (min-width: 55em) {
+
+	ul {
+		text-align: left;
+	}
+}
+
+
 }
