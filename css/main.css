@@ -57,17 +57,23 @@ ul {
 }
 
 @media only screen and (min-width: 42em) {
+		ul {
+		margin: 2em 0 0 0;
+	}
 
-
+	h1 {
+		text-align: left;
+}
 
 
 }
 
 @media only screen and (min-width: 55em) {
 
-
-
-
+	ul {
+		text-align: left;
+	}
+}
 
 
 }
