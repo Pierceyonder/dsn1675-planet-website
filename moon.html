@@ -2,9 +2,9 @@
 <html lang="en ca">
 <head>
 	<meta charset="utf-8">
-	<title>Planet Website</title>
+	<title>Moons of Venus</title>
 	<link href="css/moon.css" rel="stylesheet">
-	<link href="css/main.css" rel="stylesheet">
+	<link href="css/grid.css" rel="stylesheet">
 	<meta name="handheldfriendly" content="true">
 	<meta name="mobileoptimized" content="240">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -45,12 +45,15 @@
 	<!-- This was that weird section where we had to put a grid inside of a grid.
 	Sneaky, Thomas! Reeeeeeal sneaky! -->
 
-
-
-<h3>Venus’s Fake Moon 2</h3>
-Look at all the pretty colours of this moon—mustn’t be real-colour.
-
-
+	<div class="grid m-1-2"> <!-- Putting this here makes it so you are only adjusting the medium size in everything inside this div -->
+		<div class="unit xs-1 s-1 m-1 l-1-2">
+			<img class="image-flex" src="images/venus-moon-2.jpg">
+		</div>
+		<div class="unit xs-1 s-1 m-1 l-1-2">
+			<h3>Venus’s Fake Moon 2</h3>
+			<p>Look at all the pretty colours of this moon—mustn’t be real-colour.</p>
+		</div>
+	</div>
 
 </body>
 </html>
