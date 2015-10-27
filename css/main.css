@@ -10,6 +10,7 @@ html {
 	ms-text-size-adjust: 100%;
 	webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
+	font-family: sans-serif;
 }
 
 *, *::before, *::after {
@@ -22,7 +23,7 @@ html {
 }
 
 header {
-	background-color: #ccc;
+	background-color: #cbcbcb;
 }
 
 body {
@@ -34,7 +35,8 @@ h1 {
 	text-align: center;
 }
 
-h2 {
+.pageintro {
+	background-color: #e2e2e2;
 	text-align: center;
 }
 
@@ -44,6 +46,15 @@ a {
 
 }
 
+header a:hover {
+	color: white;
+}
+
+header li:hover{
+	background-color: #1579db;
+	color: white;
+}
+
 ul {
 	list-style-type: none;
 	padding-left: 0;
@@ -51,7 +62,12 @@ ul {
 }
 
 footer {
-	background-color: light-gray;
+	background-color: lightgray;
+}
+
+.characteristics {
+	background-color: #e2e2e2;
+	margin: 0;
 }
 
 @media only screen and (min-width: 20em) {
